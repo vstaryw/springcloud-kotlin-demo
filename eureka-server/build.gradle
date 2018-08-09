@@ -1,0 +1,57 @@
+buildscript{
+    ext {
+        javaVersion = JavaVersion.VERSION_1_8
+        jdkVersion = '1.8'
+        springBootVersion = '1.5.13.RELEASE'
+        kotlinVersion = '1.2.40'
+    }
+    repositories {
+        maven {url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlinVersion"
+    }
+}
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.51'
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-spring'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+group 'com.vstaryw.cloud'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven {url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    mavenLocal()
+    mavenCentral()
+}
+
+
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka-server'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Dalston.SR5'
+    }
+}
+
+
+compileKotlin {
+    kotlinOptions.jvmTarget = jdkVersion
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = jdkVersion
+}

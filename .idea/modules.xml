@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer-feign.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer-feign_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer-feign_main.iml" group="app-consumer-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer-feign_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer-feign_test.iml" group="app-consumer-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer_main.iml" group="app-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app-consumer_test.iml" group="app-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-gateway_main.iml" group="app-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app-gateway_test.iml" group="app-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client_main.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client_test.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app-gateway
+server:
+  port: 9999
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9600/eureka/
